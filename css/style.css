@@ -1143,3 +1143,27 @@ a:focus {
 .modelo_ambiental_content div img {
   width: 100%;
 }
+
+/*page 4 styles*/
+.why_container .orientado-a-objetos-boxes {
+  margin-top: 75px;
+}
+.why_container .orientado-a-objetos-boxes h5,
+.why_container .orientado-a-objetos-boxes p,
+.why_container .orientado-a-objetos-boxes div {
+  margin-top: 21px;
+}
+.orientado-a-objetos-boxes .diagrama-objeto-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #00204a;
+  border-radius: 5px;
+}
+
+
+.orientado-a-objetos-boxes .diagrama-objeto-images img {
+  width: 100%;
+  border-radius: 5px;
+
+}
