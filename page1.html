@@ -51,7 +51,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-              Grupo#?
+              <img src="./images/logo-hospital.jpg" alt="" width="100">
             </span>
           </a>
 
@@ -62,16 +62,16 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="page1.html">Generalidades</a>
                 <ul class="submenu">
                   <li><a href="#">Introducción</a></li>
                   <li><a href="#">Antecedentes</a></li>
                   <li><a href="#">Planteamiento del Problema</a></li>
-                  <li><a href="#arbol-de-problemas">Árbol de Problemas</a></li>
+                  <li><a href="/page1.html#arbol-de-problemas-section">Árbol de Problemas</a></li>
                   <li><a href="#">Propósito de estudio</a></li>
                   <li><a href="#">Metodología de la Investigación</a></li>
                   <li><a href="#">Métodos medios e Instrumentos</a></li>
@@ -79,19 +79,11 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="page2.html"> Marco Teórico</a>
-                <ul class="submenu">
-                  <li><a href="#">Marco Institucional</a></li>
-                  <li><a href="#">Metodología del Desarrollo</a></li>
-                  <li><a href="#">Inventario</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="page3.html">Análisis y Diseño Estructurado</a>
                 <ul class="submenu">
-                  <li><a href="#">Modelo Ambiental</a></li>
-                  <li><a href="#">Modelo de Comportamiento</a></li>
-                  <li><a href="#">Modelo de Implementación</a></li>
+                  <li><a href="/page3.html#modelo-ambiental-section">Modelo Ambiental</a></li>
+                  <li><a href="/page3.html#modelo-comportamiento-section">Modelo de Comportamiento</a></li>
+                  <li><a href="/page3.html#modelo-implementacion-section">Modelo de Implementación</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -106,14 +98,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="page5.html">Videos</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
-              </li>
-              <form class="form-inline">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
             </ul>
           </div>
         </nav>
@@ -133,25 +117,17 @@
                       Introducción
                     </h1>
                     <p>
-                      Un hospital es una institución de salud que proporciona atención médica y tratamiento a pacientes
-                      con una amplia gama de enfermedades y condiciones de salud. Los hospitales están equipados con
-                      personal médico especializado, instalaciones y tecnología para diagnosticar, tratar y cuidar a
-                      pacientes tanto de manera ambulatoria como internada.
-                      Un hospital necesita una gestión eficiente en muchos aspectos para que funcione de manera
-                      correcta:
-                      Gestión de recursos humanos: Contratación y capacitación de personal médico, enfermería,
-                      administrativo, limpieza y otros. Planificación de horarios, manejo de salarios y beneficios.
-                      Finanzas y Contabilidad: Gestión de presupuestos, facturación de servicios, administración de
-                      seguros y auditoría.
-                      Gestión de pacientes: Admisiones, registro, programación de citas y manejo de historial médico.
-                      También mencionar otros como el control de calidad, control de suministros, TICS, mantenimiento de
-                      instalaciones, etc.
+                      El proyecto "Hospital de Informática" tiene como objetivo principal el desarrollo de un sistema
+                      integral de gestión hospitalaria que optimice la administración de recursos, mejore la atención al
+                      paciente y facilite la toma de decisiones. La eficiencia en la gestión hospitalaria es crucial
+                      para garantizar una atención médica de calidad y la correcta utilización de los recursos
+                      disponibles.
                     </p>
-                    <div class="btn-box">
+                    <!-- <div class="btn-box">
                       <a id="button-to-read-introduction" href="" class="btn1">
                         Read More
                       </a>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -171,15 +147,12 @@
                       Antecedentes
                     </h1>
                     <p>
-                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta
-                      aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis
-                      delectus repellat modi impedit sequi.
+                      Los sistemas de gestión hospitalaria han evolucionado significativamente en las últimas décadas,
+                      pasando de sistemas manuales a soluciones digitales avanzadas. Sin embargo, muchos hospitales aún
+                      enfrentan desafíos en la integración y automatización de sus procesos, lo que resulta en
+                      ineficiencias y errores.
                     </p>
-                    <div class="btn-box">
-                      <a href="" class="btn1">
-                        Read More
-                      </a>
-                    </div>
+
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -199,15 +172,11 @@
                       Planteamiento del Problema
                     </h1>
                     <p>
-                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta
-                      aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis
-                      delectus repellat modi impedit sequi.
+                      La falta de un sistema de gestión hospitalaria integrado conduce a problemas como la duplicación
+                      de registros, la ineficiente gestión de recursos, y la dificultad para acceder a información
+                      actualizada. Esto afecta negativamente la calidad del servicio y la eficiencia operativa del
+                      hospital.
                     </p>
-                    <div class="btn-box">
-                      <a href="" class="btn1">
-                        Read More
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -259,37 +228,50 @@
       <div class="container ">
         <div class="heading_container heading_center">
           <h2 id="arbol-de-problemas-section">
+            <span>Formulación </span>del problema
+          </h2>
+          <div class="section-left-text-style">
+            <p>
+              <b>Pregunta Principal:</b> ¿Cómo puede un sistema de gestión hospitalaria integral mejorar la eficiencia y
+              la
+              calidad de los servicios de salud?
+            </p>
+            <p>
+              <b>Preguntas Específicas:</b>
+            <ul>
+              <li>¿Cómo se puede mejorar la gestión de pacientes mediante la automatización?</li>
+              <li>¿Qué tecnologías son adecuadas para integrar diferentes áreas hospitalarias en un único sistema?</li>
+            </ul>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2 id="arbol-de-problemas-section">
             <span> Propósito </span> de Estudio
           </h2>
-          <p>
-            El propósito de este estudio es investigar y analizar diversos aspectos clave en la operación de MERYFAR-BO,
-            una farmacia en línea, con el objetivo de identificar oportunidades de mejora y solucionar desafíos
-            específicos. Se busca comprender a fondo la dinámica de seguridad y protección de datos, gestión de
-            inventarios virtuales, eficiencia en la logística de envíos, interacción y soporte al cliente en línea,
-            gestión de devoluciones y reembolsos, integración de plataformas y tecnologías, prevención de fraudes en
-            línea, accesibilidad y usabilidad del sitio web, actualización y cumplimiento normativo, así como la
-            resiliencia ante interrupciones tecnológicas.
-          </p>
-          <p>
-            El estudio tiene como propósito fundamental proponer soluciones efectivas y estratégicas para cada uno de
-            estos desafíos identificados, con el fin de mejorar la eficiencia operativa de MERYFAR-BO y elevar la
-            calidad de la experiencia ofrecida a sus clientes. A través de un análisis detallado y recomendaciones
-            fundamentadas, se aspira a fortalecer la posición competitiva de la farmacia en línea, asegurando su
-            cumplimiento normativo, la protección de la privacidad del cliente y la adaptación efectiva a las demandas
-            del entorno digital en constante evolución.
-          </p>
-          <h3>Objetivo General</h3>
-          <p>
-            El objetivo general de este trabajo es realizar un análisis del sistema de almacén de una farmacia, con el
-            fin de identificar las fortalezas y debilidades del sistema actual y proponer mejoras de funcionamiento y
-            comunicación.
-          </p>
-          <h3>Objetivos especificos</h3>
-          <p>
-            Describir el funcionamiento actual del sistema de almacén de la farmacia.
-            Identificar los problemas y oportunidades de mejora del sistema actual.
-            Modelar y diseñar modelos de sistemas para obtener un sistema más óptimo.
-          </p>
+          <div class="section-left-text-style">
+            <h3>Objetivo General</h3>
+            <p>
+              Desarrollar un sistema de gestión hospitalaria integral que mejore la eficiencia operativa y la calidad
+              del servicio
+            </p>
+            <h3>Objetivos especificos</h3>
+            <ul>
+              <li>Automatizar procesos administrativos y de gestión de pacientes.</li>
+              <li>Facilitar la toma de decisiones a través de reportes y análisis de datos en tiempo real.</li>
+              <li>Integrar la gestión de diferentes áreas hospitalarias (como administración, farmacia, y consultas
+                externas) en una plataforma única.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

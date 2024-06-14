@@ -69,6 +69,15 @@ html {
   text-align: center;
 }
 
+
+.heading_container.heading_left {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: left;
+  text-align: center;
+}
+
+
 a,
 a:hover,
 a:focus {
@@ -1094,6 +1103,22 @@ a:focus {
     border-radius: 50%;
   }
 }
+
+
+
+/*page 1 styles*/
+.section-left-text-style {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  text-align: left;
+}
+.section-left-text-style p {
+  margin: 30px 0px;
+}
+
 
 /*page 2 styles*/
 .modelo_ambiental {
