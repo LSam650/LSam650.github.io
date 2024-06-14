@@ -1167,3 +1167,11 @@ a:focus {
   border-radius: 5px;
 
 }
+
+.team_container .row .video-box {
+  max-width: none;
+}
+.team_container {
+  align-items: center;
+  justify-content: center;
+}
