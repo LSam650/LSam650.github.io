@@ -1171,7 +1171,7 @@ a:focus {
 .team_container .row .video-box {
   max-width: none;
 }
-.team_container {
-  align-items: center;
+.team_container .row {
+  display: flex;
   justify-content: center;
 }
